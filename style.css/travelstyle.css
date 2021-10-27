@@ -1,0 +1,26 @@
+body{
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,75,164,1) 0%, rgba(9,9,121,1) 11%, rgba(5,91,174,1) 22%, rgba(0,212,255,1) 100%);
+}
+
+h1{
+    text-align: center;
+}
+
+#area_centralizada{
+    background-color: bisque;
+    border: solid;
+    width: 50%;
+    margin: 80px;
+    padding: 50px;
+    text-align: left;
+    
+}
+#menu{
+    width: 35%;
+    margin: 2px;
+    padding: 30px 50px;
+    text-align: left;
+    
+
+}
