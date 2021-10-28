@@ -1,3 +1,27 @@
 body{
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(6,75,164,1) 92%, rgba(5,91,174,1) 95%, rgba(9,9,121,1) 97%);
 }
+
+#form{
+
+}
+
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 2px;
+}
+input{
+    width: 30%;
+    line-height: 10px;
+    margin: 2px 0px 1px auto;
+}
+
+input[type="number"]{
+width: 10%;
+}
+
+.submit{
+    width: 10%;
+    
+}
