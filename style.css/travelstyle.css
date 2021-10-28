@@ -5,6 +5,8 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,75,164,1) 0%, rgba(
 
 h1{
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(32, 4, 58);
 }
 
 #area_centralizada{
@@ -17,10 +19,18 @@ h1{
     
 }
 #menu{
-    width: 35%;
+    width: 60%;
     margin: 2px;
     padding: 30px 50px;
     text-align: left;
-    
 
+}
+
+a{
+    height: 1px;
+}
+
+a:hover{
+    color:black;
+    font-size: 120%;
 }
