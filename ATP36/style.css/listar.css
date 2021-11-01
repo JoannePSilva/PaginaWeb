@@ -1,0 +1,14 @@
+#table{
+text-align:justify;
+border-radius: 2%;
+border-collapse: collapse;
+border: 2px solid black;
+width: 65%;
+margin: 30px 100px 30px auto;
+background-color: white;
+}
+
+th{
+    border: 1px solid gray;
+    background-color: gray;
+}
