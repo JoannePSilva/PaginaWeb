@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css/travelstyle.css">
     <link rel="stylesheet" href="style.css/listar.css">
+    <script src="js/list.js"></script>
     <title>Cadastro-Lista</title>
 </head>
 <body>
@@ -21,12 +22,12 @@
                     <th>Preço</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody id ="corpo_tabela">
                 <tr>
-                    <td>1234</td> 
-                    <td>Cancún</td>
-                    <td>15 dias</td>
-                    <td>12.345</td>
+                    <td id = "id">1234</td> 
+                    <td id = "lugar">Cancún</td>
+                    <td id = "estadia">15 dias</td>
+                    <td id = "preco">12.345</td>
                 </tr>
                 <tr>
                     <td>2134</td>
@@ -34,8 +35,9 @@
                     <td>7 dias</td>
                     <td>10.345</td>
                 </tr>
-            </tbody>
+            </tbody> 
         </table>
+        <input type="submit" class="submit" id ="submit" value="Gerar formulário" onclick="geraFormulario()"/>
 
         <br />
 

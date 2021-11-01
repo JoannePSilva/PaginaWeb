@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css/travelstyle.css">
     <link rel="stylesheet" href="style.css/create.css">
+    <script src="js/general.js"></script>
+    <script src="js/update.js"></script>
     <title>Travel-create</title>
 </head>
 <body>
@@ -13,15 +15,17 @@
         <h1>Travel Land</h1>
         <h2> Cadastre sua viagem</h2>
         <form id = "form">
-            <label>Número identificador:</label><input type="number" /><br />
-            <label>Lugar:</label><input type="text" /><br />
-            <label>Estadia:</label><input type="text" /><br />
-            <label>Preço:</label><input type="text" /><br />
+            <label>Número identificador:</label><input type="number" id = "id" /><br />
+            <label>Lugar:</label><input type="text" id = "lugar" /><br />
+            <label>Estadia:</label><input type="text" id = "estadia"/><br />
+            <label>Preço:</label><input type="text" id = "preco"/><br />
             <br />
-            <input type="submit" class="submit" value="Salvar" />
+            <input type="submit" class="submit" value="Salvar" onclick="salvar(event)" />
         </form>
     </div>
      
        <button><a href="index.html">Voltar a página inicial</a></button> 
+
+       
 </body>
 </html>
