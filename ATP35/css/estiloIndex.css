@@ -1,0 +1,20 @@
+body{
+    background-image: url('../fotos/pretalab.jpg');
+}
+#area_centralizada{
+    background-color: bisque;
+    border: solid;
+    width: 30%;
+    margin: 10px 350px auto;
+    padding: 15px;
+    text-align: left;
+}
+#titulo{
+    background-color: rgb(99, 96, 93);
+    width: 30%;
+    margin: 150px 250px auto;
+    padding: 10px;
+    text-align: left;
+    color: antiquewhite;
+
+}

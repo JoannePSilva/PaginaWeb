@@ -1,0 +1,13 @@
+body{
+    background-image: url('../fotos/eu.png');
+    padding: 100px 0px auto 0px;
+}
+
+#area_centralizada{
+    background-color: bisque;
+    border: solid;
+    width: 30%;
+    margin: 60px;
+    padding: 50px;
+    text-align: left;
+}

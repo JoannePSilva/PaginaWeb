@@ -1,0 +1,22 @@
+body{
+    background-image: url('../fotos/colab.png');
+    padding: 100px 0px auto 0px;
+}
+#area_centralizada{
+    background-color: bisque;
+    border: solid;
+    width: 30%;
+    margin: 40px 280px;
+    padding: 40px;
+    text-align: left;
+}
+
+#area_central{
+    background-color: bisque;
+    border: solid;
+    width: 50%;
+    margin: 50px 550px auto;
+    padding: 10px;
+    text-align: left;
+    
+}
