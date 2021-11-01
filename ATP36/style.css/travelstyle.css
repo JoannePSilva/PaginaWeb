@@ -1,6 +1,7 @@
 body{
-background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,75,164,1) 0%, rgba(9,9,121,1) 11%, rgba(5,91,174,1) 22%, rgba(0,212,255,1) 100%);
+    background-image: url('../imagens/capgemini.jpg');
+    background-repeat: no-repeat;
+    background-color: rgb(52, 52, 139);
 }
 
 h1{
@@ -10,11 +11,10 @@ h1{
 }
 
 #area_centralizada{
-    background-color: bisque;
+    background-color: rgb(149, 149, 240);
     border: solid;
-    width: 50%;
-    margin: 50px 250px 20px auto ;
-    padding: 50px;
+    width: 30%;
+    margin: 250px 900px 20px;
     text-align: left;
     
 }
